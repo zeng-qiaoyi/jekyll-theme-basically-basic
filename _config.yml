@@ -17,8 +17,8 @@ lang: zh-CN
 title: Zeng-Qiaoyi's Personal Website
 email: "1290263010@qq.com"
 description: "Zeng-Qiaoyi's Personal Website"
-baseurl: "zeng-qiaoyi" # the optional subpath of your site, e.g. "/blog"
-url: "https://github.com/zeng-qiaoyi" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "jekyll-theme-basically-basic" # the optional subpath of your site, e.g. "/blog"
+url: "https://zeng-qiaoyi.gitee.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author: 
   name: "ZengQiaoyi"
   twitter:

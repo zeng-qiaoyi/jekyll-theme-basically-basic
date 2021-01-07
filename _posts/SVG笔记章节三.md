@@ -20,6 +20,27 @@ SVG是一种图像文件格式，它的英文全称为Scalable Vector Graphics�
 
 此网站有多种SVG小图标，可下载图标PNG格式或源代码。
 
+#### SVG在线工具
+众所周知，SVG图比普通的位图图像小很多，而且可以在高DPI的屏幕上保持清晰度。与CSS3的渐变不同的是，SVG支持IE9。但是在线的SVG可视化图形填充生成代码工具很难搜到（CSS3那些可视化工具倒是很多，译者团队也在开发类似的东西），你甚至有可能都不知道这些在线工具的存在，以防万一把常用的比较好的在线工具放在这里。我相信它能帮到你，不需要你自己绞尽脑汁去思考啦。
+
+[Hero Patterns](http://www.heropatterns.com/)
+一个汇集了许多可重复的SVG图形元素的工具，可以为你的网站背景提供便利！
+![Hero Patterns](https://pic1.zhimg.com/80/v2-baa590ce2f51d5c0c943c3d967e3b684_720w.png)
+
+[SVG Patterns Gallery](https://philiprogers.com/svgpatterns/)
+
+![SVG Patterns Gallery](https://pic2.zhimg.com/80/v2-24e10d7efffcff959cea3de648577879_720w.png)
+
+[SVG Patterns Gallery](http://ww1.svgeneration.com/)
+这个工具可以通过手动调节生成你想要的图形，不过可能需要翻墙。
+![SVG Patterns Gallery](https://pic4.zhimg.com/80/v2-53fc51fe89b127b82f2d9230616c764f_720w.png)
+
+
+
+
+
+
+
 #### 以下为在CodePen的一些SVG
 ```
 *

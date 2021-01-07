@@ -1,0 +1,73 @@
+# 超有趣的SVG绘制动画赏析！
+## 章节二
+#### 一款很有趣的HTML5SVG动画！
+* 一朵会跳舞的花
+
+首先，花朵和花盆均采用SVG进行绘制，虽然是简单的线条以及单纯的颜色，但是绘制出的效果还是相当逼真的。接下来是给花朵进行跳舞动画的渲染，结合CSS3的动画属性以及JavaScript的动态渲染，让这朵花赋予了4种不同心情下的跳舞动画，点击按钮即可切换当前心情下的跳舞动画，十分可爱！
+![会跳舞的花](https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171102%2Feb5bfd75cece441e91c5248e85a177fe.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612623691&t=dba068a623c3549aab14c2bed90602c0)
+
+## [一朵会跳舞的小花SVG成果链接](https://www.html5tricks.com/demo/html5-svg-dancing-flower/index.html)
+
+---
+
+### scale+transition-delay的混合效果：
+- 放大并向右释放
+
+🥗
+
+##### 源代码：
+
+```
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .demo1:hover {
+    transform: scale(1.5);
+  }
+	.demo1 {
+	    width: 120px;
+	    height: 120px;
+	    background-color: #FFF8DC;
+	    transition: width 1s;
+	}
+	.demo1:hover {
+	    width: 400px;
+	}
+  </style>
+</head>
+
+<body>
+<div class="demo1" >🥗</div>
+</body>
+```
+### 过度并变色效果：
+- 这个是加了CSS的scale元素，最终会达到消失的效果是因为我设置了悬停的颜色。
+
+💘
+
+源代码：
+```
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .demo3 {
+	    width: 130px;
+        height: 130px;
+        background-color: #FFF8DC;
+        transition: width 2s linear,
+                    height 2s linear,
+                    background-color 2s 2s;
+	}
+	.demo3:hover {
+	    width: 200px;
+        height: 200px;
+        background-color: #28505D;
+	}
+  </style>
+</head>
+
+<body>
+<div class="demo3" >💘</div>
+</body>
+<br/>
+```

@@ -1,0 +1,65 @@
+# SVG——让你的web页面设计更加激动人心
+## 章节一
+
+### 1.定义
+SVG是一种图像文件格式，它的英文全称为Scalable Vector Graphics，意思为可缩放的矢量图形。它是基于XML（Extensible Markup Language），由World Wide Web Consortium（W3C）联盟进行开发的。严格来说应该是一种开放标准的矢量图形语言，可让你设计激动人心的、高分辨率的Web图形页面。用户可以直接用代码来描绘图像，可以用任何文字处理工具打开SVG图像，通过改变部分代码来使图像具有交互功能，并可以随时插入到HTML中通过浏览器来观看。
+
+##### 什么是SVG?
+
+* SVG 指可伸缩矢量图形 (Scalable Vector Graphics)
+* SVG 用来定义用于网络的基于矢量的图形
+* SVG 使用 XML 格式定义图形
+* SVG 图像在放大或改变尺寸的情况下其图形质量不会有所损失
+* SVG 是万维网联盟的标准
+* SVG 与诸如 DOM 和 XSL 之类的 W3C 标准是一个整体
+
+### 2.SVG格式的优势
+* SVG 可被非常多的工具读取和修改（比如记事本）
+
+* SVG 与 JPEG 和 GIF 图像比起来，尺寸更小，且可压缩性更强。
+
+* SVG 是可伸缩的
+
+* SVG 图像可在任何的分辨率下被高质量地打印
+
+* SVG 可在图像质量不下降的情况下被放大
+
+* SVG 图像中的文本是可选的，同时也是可搜索的（很适合制作地图）
+
+* SVG 可以与 JavaScript 技术一起运行
+
+* SVG 是开放的标准
+
+* SVG 文件是纯粹的 XML
+
+### 3.SVG在HTML中
+#### 使用 <embed> 标签
+#### <embed>:
+
+* 优势：所有主要浏览器都支持，允许使用脚本
+* 缺点：不推荐在HTML4和XHTML中使用（但在HTML5允许）
+
+##### 语法:
+```
+<embed src="circle1.svg" type="image/svg+xml" />
+```
+---
+#### 使用 <object> 标签
+#### <object>:
+
+* 优势：所有主要浏览器都支持，并支持HTML4，XHTML和HTML5标准
+* 缺点：不允许使用脚本。
+##### 语法:
+```
+<object data="circle1.svg" type="image/svg+xml"></object>
+```
+---
+#### 使用 <iframe> 标签
+#### <iframe>:
+
+* 优势：所有主要浏览器都支持，并允许使用脚本
+* 缺点：不推荐在HTML4和XHTML中使用（但在HTML5允许）
+语法:
+```
+<iframe src="circle1.svg"></iframe>
+```

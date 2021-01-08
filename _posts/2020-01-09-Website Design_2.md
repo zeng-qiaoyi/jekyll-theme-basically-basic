@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 注意！“网站设计”出没——走进网站设计
+title: 网站设计——一切皆有可能
 excerpt_separator: "<!--more-->"
 categories:
      - 网站设计

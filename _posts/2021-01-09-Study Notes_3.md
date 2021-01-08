@@ -1,6 +1,14 @@
+---
+layout: page
+title: 如何通过CSS3实现CSS过渡、变形及动画？点击获取！
+excerpt_separator: "<!--more-->"
+categories:
+     - 学习笔记
+---
+
 # 如何通过CSS3实现CSS过渡、变形及动画？点击获取！
 ## 章节三
-
+<!--more-->
 ### CSS3的三个主要代理
 * 1.过渡（transition）
 * 2.变形（transform）

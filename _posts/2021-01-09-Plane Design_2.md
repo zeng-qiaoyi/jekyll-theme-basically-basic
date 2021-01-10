@@ -14,7 +14,7 @@ categories:
 其实不太需要，对客户而言，其实只需要找他们任何一个案例出来分析就知道他们对待一个企业客户的态度，以及针对不同客户网站的诉求是否能做到真正的定制和高端。随意找了几个国外设计师的作品，从中我们能看到，其实不管哪一个网页作品，他们在设计上的追求和设计水平都是至高的，找他们帮忙做设计无需担心实力这一块。
 
 #### 1. APPLE
-![apple](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ffile.adquan.com%2Fupload%2F20160831%2F1472626518995752.png&refer=http%3A%2F%2Ffile.adquan.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612497478&t=86214866d73f6e1965c3a940fb15dd5e)
+
 Apple毋庸置疑拥有一支庞大的平面设计队伍，Apple网页首页整体简洁大气，产品平面设计图片也十分灵动，主题凸显。
 
 #### 2.国外设计团队作品
@@ -31,15 +31,21 @@ Apple毋庸置疑拥有一支庞大的平面设计队伍，Apple网页首页整�
 * 吕敬人
 
 以书籍设计为主，亚洲十大设计师之一
+
 ![吕敬人](https://pic2.zhimg.com/80/v2-b013bef1e924181010d65dd38cbf5220_720w.jpg?source=1940ef5c) 
+
 ![作品](https://pic4.zhimg.com/80/v2-e5f1180d6711d24fdc5da1ca15603517_720w.jpg?source=1940ef5c)
 
 * 聂永真
+
 台湾平面设计师，早年以唱片专辑设计成名，是音乐颁奖典礼的常客，媒体所打造的“设计明星”
+
 ![作品1](https://pic2.zhimg.com/80/v2-1e5f480bb30b07d7a89156a675a3ed9d_720w.jpg?source=1940ef5c)
 
 * 靳埭强
 
-被称为“靳叔”、致力于设计教育生态及中西文化交流、经手了许多早期大陆的经典商业设计案例。
+被称为“靳叔”、致力于设计教育生态及中西文化交流、经手了许多早期大陆的经典商业设计案例。 
+
 ![作品1](https://pic4.zhimg.com/80/v2-b45202d24236ed20bb1c4aa95e4ea06a_720w.jpg?source=1940ef5c)
+
 ![作品2](https://pic2.zhimg.com/80/v2-9ecd27295401dc70472ab90db2f197d3_720w.jpg?source=1940ef5c)

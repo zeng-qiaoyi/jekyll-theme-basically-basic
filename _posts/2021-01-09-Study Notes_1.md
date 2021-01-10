@@ -67,6 +67,45 @@ categories:
 4) 结束标记要书写正确，不能忘掉斜杠。
 
 ### HTML5的标签！
-![HTML5标签](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fww2.sinaimg.cn%2Flarge%2F61c2addcjw6de6xj6ear1j.jpg&refer=http%3A%2F%2Fwww.sina.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612680187&t=48a5af4d5464c568000c72f6490d45c7)
+#### <!DOCTYPE>: 定义文档类型.
+#### 文档标签
+* <html>: 定义HTML文档.
+
+* <head>: 定义文档的头部.(头部内包含)
+
+* < meta >: 定义元素可提供有关页面的元信息，比如针对搜索引擎和更新频度的描述和关键词.
+* < base >:定义页面上的所有链接规定默认地址或默认目标.
+* < title >: 定义文档的标题.
+* < link >: 定义文档与外部资源的关系.
+* < style >:定义 HTML 文档样式信息.
+* < body >: 定义文档的主体.(脚本在非必须情况时在主体内容最后)
+
+* < script >: 定义客户端脚本，比如 JavaScript.
+* < noscript >:定义在脚本未被执行时的替代内容.（文本）
+
+#### 二.布局标签&语义化
+* < div >:定义块级元素.
+
+* < span >:定义行內元素.
+
+* < header >:定义区段或页面的页眉.(头部)
+
+* <footer >:定义区段或页面的页脚.(足部)
+
+* < section >:定义文档中的区段.
+
+* < article >:定义文章.
+
+* < aside >:定义页面内容之外的内容.
+
+* < details >:定义元素的细节.
+
+* < summary >:定义 <details> 元素可见的标题.
+
+* < dialog >:定义对话框或窗口.
+* < nav >:定义导航.
+* < hgroup >:定义标题组
+
+标签介绍网址：https://www.jianshu.com/p/9a7624f04da4
 
 以上就是我的HTML5的课堂学习笔记。

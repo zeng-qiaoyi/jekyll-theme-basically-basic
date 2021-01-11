@@ -10,12 +10,13 @@ categories:
 ### HTML5 初来乍到！
 ## 章节一
 <!--more-->
-### 记得刚开学，对HTML5课程的一切都是如此的陌生。
-### 以下是我关于HTML5的学习笔记：
+### 记得刚开学，刚加入网络与新媒体的大家庭，对HTML5课程的一切都是如此的陌生。
+### 以下是我在赵老师课堂上，网络上，还有我自己心得总结的一些关于HTML5的学习笔记：
 <!--more-->
 
 ### 什么是HTML？
 ### HTML格式很重要！
+### 让我们一起来看看一个完整的HTML文档
 ```
 <!DOCTYPE html>
 <!—文档头声明，让浏览器知道以什么那个版本的HTML写的以下代码->
@@ -31,34 +32,50 @@ categories:
           </body>
 </html>
 ```
-* 注意：一个文档里只有一个<html>、一个<head>、一个<body>标签。
+* 注意：一个文档里只有一个< html >、一个< head >、一个< body >标签。
+
+#### 关于各个标签的介绍：
+* <!DOCTYPE html>			文档类型声明  
+
+* < html lang="zh-cn" >	 表示HTML文档开始
+* < head >							包含文档元数据开始
+* < meta charset="uth-8" >				声明字符编码
+* < title >基本结构</title>				设置文档标题	
+* </head >							包含文档元数据结束
+* < body >							表示HTML文档内容
+* < a href="http://www.GitHub.com" >GitHub< /a>		一个超链接元素
+* < /body >							表示HTML文档内容结束
+* < /html >							表示HTML文档结束
+#### 个人心得：在编写HTML文档时，细心十分重要，一个符号甚至是一个空格出了错，都会导致HTML文档无法显示。曾经我在做项目的时候就是因为粗心大意，有时候多打了一个空格，有时候忘记了使用英文输入，导致在编写HTML代码时频频出错，不断更改。所以在编写时一定要格外的细心！细心！细心！且要在编写时不断除错，这样才能确保文档书写正确！
 
 ### 1. 文件头部<head></head>
-* <head>、</head>：之间定义，内容可包括标题名、文本文件地址、创作者信息等网页信息说明。head 里面的内容不会在浏览器中显示，它的作用是包含一些页面的元数据
-* <title> </title>：定义网页的标题；
-* <meta>：说明一些与文档相关的信息，如作者、关键内容、所用语言等；
-#### head里还可以设置css样式
+* <head>、</head>：head里的内容可包括标题的名字、文本文件地址路径、创作者信息、日期等网页信息说明。值得注意的是，head里面所编写的内容并不会在浏览器中显示，它的作用是表示一些页面文档的元数据
+* <title> </title>：可以用来编写网页的标题；
+* <meta>：可以用来说明与文档相关的信息，如作者、所用语言等；
+
+#### head可以干嘛呢？可以设置CSS样式!
+
 * background：设置网页背景图案。
-              例如<body background=“photo_6.gif”>
-* bgcolor：设置网页背景色。
-              例如<body bgcolor=“#00FF00”>
-* text：设置文本颜色，默认黑色。
+              
+* backgroundcolor：设置网页背景色。
+            
+* text：设置文本颜色，默认是黑色。
+
 * link：设置尚未被访问过的超文本链接的颜色。
+
 * vlink：设置已被访问过的超文本链接的颜色。
 
 ### 2. 文件主体<body></body>
-位于头部之后，在<body>、</body>之间
-定义了网页上显示的主要内容和显示格式。
-文件主体内可包括众多其他标记。
+<body>位于头部之后，在<body>、</body>之间定义了网页上显示的主要内容和显示格式。文件主体内可包括众多其他标记,包括< div >等。
 
 ### 3. 注释
-* 格式： < !--  注释  -->
+* 格式： < !--  注释  -->  
+注释可有多行。  
+注释以“< !--”开始，以“-->”结束，注释里的内容会被浏览器忽略。利用注释可以为HTML文档的不同部分加上说明，方便日后修改，也可以利用注释为HTML文档加上版权声明。  
 
-注释以“< !--”开始，以“-->”结束，注释的内容会被浏览器忽略。利用注释可以为HTML文档的不同部分加上说明，方便日后修改，也可以利用注释为HTML文档加上版权声明。  
-注释可有多行。
 
 ### 书写HTML代码时应注意以下几点：
-1) HTML标记及属性中字母不区分大小写，如<HTML>与<Html>对浏览器来说是完全相同的。
+1) HTML标记及属性中字母不区分大小写。
 
 2) 标记名与左尖括号之间不能留有空白，如<  html>是错误的。
 
@@ -66,24 +83,23 @@ categories:
 
 4) 结束标记要书写正确，不能忘掉斜杠。
 
+##### 书写HTML代码时，最好将键盘换成英文输入哦！这样可以减少许多不必要的失误！
+
 ### HTML5的标签！
-#### <!DOCTYPE>: 定义文档类型.
+
 #### 文档标签
-* <html>: 定义HTML文档.
-
+* < html >: 定义HTML文档.
 * <head>: 定义文档的头部.(头部内包含)
-
 * < meta >: 定义元素可提供有关页面的元信息，比如针对搜索引擎和更新频度的描述和关键词.
 * < base >:定义页面上的所有链接规定默认地址或默认目标.
 * < title >: 定义文档的标题.
 * < link >: 定义文档与外部资源的关系.
 * < style >:定义 HTML 文档样式信息.
 * < body >: 定义文档的主体.(脚本在非必须情况时在主体内容最后)
-
 * < script >: 定义客户端脚本，比如 JavaScript.
 * < noscript >:定义在脚本未被执行时的替代内容.（文本）
 
-#### 二.布局标签&语义化
+#### 布局标签&语义化
 * < div >:定义块级元素.
 
 * < span >:定义行內元素.
@@ -94,18 +110,104 @@ categories:
 
 * < section >:定义文档中的区段.
 
-* < article >:定义文章.
+#### 想知道更多的标签可以多上百度搜索一下！多多学习！
+#### 一个关于HTML5标签介绍的网址：https://www.jianshu.com/p/9a7624f04da4
 
-* < aside >:定义页面内容之外的内容.
+### 经过一番系统的介绍以后，相信大家对HTML代码编写一定有了更深入的认识。
+#### 实践出真知！无论对HTML的概念有多深刻的认识，如果不去实践，也只能沦为空谈。所以我们应该多去实践，多去试错，多去实验几遍，这样才能将代码牢记于心，才能将上一次犯过的错牢记于心，提醒自己不要再出错，最终才能熟练的编写HTML代码，成为一个合格的网络与新媒体专业的学生。
 
-* < details >:定义元素的细节.
+#### 谈及实验，赵老师在课堂上有向我们介绍几个可以试验HTML代码的网站：
+[菜鸟教程](https://www.runoob.com/tags/tag-html.html)
 
-* < summary >:定义 <details> 元素可见的标题.
+[W3school](https://www.w3school.com.cn/html/index.asp)
 
-* < dialog >:定义对话框或窗口.
-* < nav >:定义导航.
-* < hgroup >:定义标题组
+#### 这些网站对HTML代码编写有十分详细的介绍，无论你想要什么，都能在上面找到。这对我们做项目十分有帮助，不久前赵老师安排的期中项目，有为自己的网站添加标签的加分点，于是我在这两个网站上面得到了很多指点，进一步完善了自己的网站。
+#### 平时也可以多到这样一些网站去实践，也可以动动手多去网上查找与HTML相关的知识，不断充实自己，积累经验。
 
-标签介绍网址：https://www.jianshu.com/p/9a7624f04da4
+---
+
+## 依据网络上他人的经验试着编写baidu首页
+
+#### 通过一学期的学习，对HTML有了一定的了解，虽然不是很深入，但在不断地实验中，希望可以跟大家分享一下，促进彼此的学习。
+
+HTML带给我的感觉就是，结构清晰，使用方便。  
+要做好HTML，要有足够的细心与耐心。
+
+让我们用代码来讨论HTML吧！试着编写百度首页！（学习A阿福A的博客，自己动手编写）
+
+* 首先来看看百度的首页长什么样
+![百度首页](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fstatic.leiphone.com%2Fuploads%2F2014%2F07%2FQQ%E6%88%AA%E5%9B%BE20140731080001.png&refer=http%3A%2F%2Fstatic.leiphone.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612933643&t=354009685586c3a21ef3c4ece9defaee)
+
+* 先来分析一下，我们要实现的是静态页面，我们可以把百度首页划分成七个区域：  
+    1.标签栏：直接在head里设置title  
+	2.搜索设置，登录，注册，作为第一个块，可以用链接实现  
+	3.logo：作为第二个块，用img载入实现  
+	4.搜索种类标签页：第三个块，用链接实现  
+	5.输入框与按钮：第四个块，用表单实现  
+	6.更多：第五个块用链接实现  
+	7.底下的，用表格加链接实现  
+
+以下是源代码：
+```	
+	<head>
+		<title>百度一下，你就知道</title>
+		<meta http-equiv="content-type" 
+		content="text/html;charset=gbk">
+
+		<style>
+			body{
+				font-size:12px;
+			}
+			#d1{
+				float:right;
+			}
+			a{
+				color:blue;
+				margin-right:3px;
+			}
+			a:hover{
+				color:red;
+			}
+			table{
+				align:center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="d1" style="margin-right:20px;">
+			<a href="http://www.baidu.com/gaoji/preferences.html">搜索设置</a>
+			<a>|</a>
+			<a href="#">登录</a>
+			<a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F">注册</a>
+		</div>
+		<div style="height:40px;"></div>
+
+		<div>
+			<center><img src="logo.png"></center>
+		</div>
+
+		<div style="font-size:14px;margin-top:30px;">
+			<center>
+				<a href="#">新 闻</a>
+				<a href="#">网 页</a>
+				<a href="#">贴 吧</a>
+				<a href="#">知 道</a>
+				<a href="#">音 乐</a>
+				<a href="#">图 片</a>
+				<a href="#">视 频</a>
+				<a href="#">地 图</a>
+			</center>
+		</div>
+
+		<div style="margin-top:5px;">
+			<center><input type="text" style="width:390px;height:30px;"/><center>
+			
+		</div>
+	</body>
+</html>
+```
+
+### 大家不妨也动动手来编写HTML代码，在HTML代码的世界中发现更多的乐趣，一起进步！
 
 以上就是我的HTML5的课堂学习笔记。

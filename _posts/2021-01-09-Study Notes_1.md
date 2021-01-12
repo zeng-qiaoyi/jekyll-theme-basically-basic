@@ -149,7 +149,7 @@ HTML带给我的感觉就是，结构清晰，使用方便。
 
 以下是源代码：
 ```	
-	<head>
+	< head >
 		<title>百度一下，你就知道</title>
 		<meta http-equiv="content-type" 
 		content="text/html;charset=gbk">
@@ -173,7 +173,7 @@ HTML带给我的感觉就是，结构清晰，使用方便。
 			}
 		</style>
 	</head>
-	<body>
+	< body >
 
 		<div id="d1" style="margin-right:20px;">
 			<a href="http://www.baidu.com/gaoji/preferences.html">搜索设置</a>
@@ -205,7 +205,7 @@ HTML带给我的感觉就是，结构清晰，使用方便。
 			
 		</div>
 	</body>
-</html>
+< /html >
 ```
 
 ### 大家不妨也动动手来编写HTML代码，在HTML代码的世界中发现更多的乐趣，一起进步！

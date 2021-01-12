@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 媒体查询给网页带来了哪些便利？这里有你想要的！
+title: 想成为一个优秀的前端工程师？Gitee和GitHub的操作你学会了吗！
 excerpt_separator: "<!--more-->"
 categories:
      - 学习笔记

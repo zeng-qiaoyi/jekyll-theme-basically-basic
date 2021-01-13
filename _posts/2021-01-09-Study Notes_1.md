@@ -171,68 +171,11 @@ HTML带给我的感觉就是，结构清晰，使用方便。
 
 7.底下的，用表格加链接实现 
 
+由于在此处编写代码会使我的文章有乱码，详情可以去搜索一下A阿福A的博客，跟着他一起动手操作！
 
-以下是源代码：
+### 这边有一个教我们用HTML和CSS制作一个网站的帖子：https://blog.csdn.net/weixin_45380677/article/details/100830467
 
----
- < head >
-		<title>百度一下，你就知道</title>
-		<meta http-equiv="content-type" 
-		content="text/html;charset=gbk">
-
-		<style>
-			body{
-				font-size:12px;
-			}
-			#d1{
-				float:right;
-			}
-			a{
-				color:blue;
-				margin-right:3px;
-			}
-			a:hover{
-				color:red;
-			}
-			table{
-				align:center;
-			}
-		</style>
-	</head>
-	< body >
-
-		<div id="d1" style="margin-right:20px;">
-			<a href="http://www.baidu.com/gaoji/preferences.html">搜索设置</a>
-			<a>|</a>
-			<a href="#">登录</a>
-			<a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F">注册</a>
-		</div>
-		<div style="height:40px;"></div>
-
-		<div>
-			<center><img src="logo.png"></center>
-		</div>
-
-		<div style="font-size:14px;margin-top:30px;">
-			<center>
-				<a href="#">新 闻</a>
-				<a href="#">网 页</a>
-				<a href="#">贴 吧</a>
-				<a href="#">知 道</a>
-				<a href="#">音 乐</a>
-				<a href="#">图 片</a>
-				<a href="#">视 频</a>
-				<a href="#">地 图</a>
-			</center>
-		</div>
-
-		<div style="margin-top:5px;">
-			<center><input type="text" style="width:390px;height:30px;"/><center>
-			
-		</div>
-	</body>
-< /html  >
----
+### 实用性很强
 
 ### 大家不妨也动动手来编写HTML代码，在HTML代码的世界中发现更多的乐趣，一起进步！
 

@@ -170,12 +170,69 @@ HTML带给我的感觉就是，结构清晰，使用方便。
 6.更多：第五个块用链接实现  
 
 7.底下的，用表格加链接实现 
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度一下，你就知道</title>
+		 <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon" />
+		 <link rel="stylesheet" type="text/css" href="css/css1.css" />
+	</head>
+	<body>
+		<div id="d1">
+			<div align="center">
+		<ul>
+			<li><a href="http://news.baidu.com/" class="s">新闻</a></li>
+			<li><a href="https://www.hao123.com/" class="s">hao123</a></li>
+			<li><a href="http://map.baidu.com/" class="s">地图</a></li>
+			<li><a href="http://v.baidu.com/" class="s">视频</a></li>
+			<li><a href="http://tieba.baidu.com/" class="s">贴吧</a></li>
+			<li><a href="http://xueshu.baidu.com/" class="s">学术</a></li>
+			<li><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F&sms=5" >登录</a></li>
+			<li><a href="http://www.baidu.com/gaoji/preferences.html">设置</a></li>
+			<li><input type="button" value="更多产品"></li>
+		</ul>
+		</div>
+		</div>
+		<div id="d2">
+			<a href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs" id="a1">
+				<img src="https://www.baidu.com/img/baidu_resultlogo@2.png">
+		  </a><br />
+		  <form action="http://www.baidu.com/s">
+		  	    <div>
+			  	 <input type="text" name="wd">
+			  	 <input type="submit" value="百度一下">
+			  	 	</div>
+		  </form>
+		</div>
+	    <div id="d3" align="center">
+	    	<img src="img/二维码.png" style="height:60px;width: 60px;" /><br />
+	    	<p style="color:#666;font-weight:700;font-size: 10px;margin-top: 5px;"><b>陈小哥cw</b></p>
+	    </div>
+	    <div id="d4" align="center">
+	    	<a href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="http://home.baidu.com/">关于百度</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="http://ir.baidu.com/">About Baidu</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="http://e.baidu.com/?refer=888">百度推广</a>
+	    	<br />
+	    	<p style="font-size: 4px;">&copy;2019 Baidu<a href="http://www.baidu.com/duty/">使用百度前必读</a>
+	    		&nbsp;<a href="http://jianyi.baidu.com/">意见反馈</a>&nbsp;京ICP证030173号
+	    		<img src="img/京.png" />&nbsp;&nbsp;&nbsp;
+	    		<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001">京公网安备11000002000001号</a>
+	    		<img src="img/国徽.png"> 
+	    	</p>
+	    	
+	    </div>
+	</body>
+</html>
+```
 
-由于在此处编写代码会使我的文章有乱码，详情可以去搜索一下A阿福A的博客，跟着他一起动手操作！
+### 一起动手操作！
 
 ### 这边有一个教我们用HTML和CSS制作一个网站的帖子：https://blog.csdn.net/weixin_45380677/article/details/100830467
 
-### 实用性很强
+### 实用性很强！
 
 ### 大家不妨也动动手来编写HTML代码，在HTML代码的世界中发现更多的乐趣，一起进步！
 
